@@ -6,8 +6,8 @@
 
 | 产品 | 文档 | 状态 |
 | --- | --- | --- |
-| AnchorCAF | [授权页个性化参数](docs/anchorcaf/consent-appearance.md) | 候选实现，待上线 |
-| AnchorCAF | [授权页调用示例](examples/anchorcaf/consent-url.mjs) | 与候选参数同步 |
+| AnchorCAF | [授权页个性化参数](docs/anchorcaf/consent-appearance.md) | 已上线，2026-10-19 |
+| AnchorCAF | [授权页调用示例](examples/anchorcaf/consent-url.mjs) | 与已上线参数同步 |
 
 ## 文档状态
 
@@ -15,7 +15,7 @@
 - **已上线**：完成生产验收后，补充上线版本与日期。
 - **已废弃**：说明替代方案和移除安排。
 
-本次授权页文档更新于 **2026-10-19**。当前仅完成本地候选实现与验证，尚未上线。文档提交不触发应用发布。
+授权页于 **2026-10-19 19:05（Asia/Shanghai）**完成静态发布与入口验收，对应 [CAFServer PR #1](https://github.com/ApointsDev/CAFServer/pull/1)，合并提交 `449e0b7`。CAF 后端未重启，数据库未修改。文档提交本身不触发应用发布。
 
 ## 目录约定
 
